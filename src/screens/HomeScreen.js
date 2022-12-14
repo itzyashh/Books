@@ -5,7 +5,7 @@ import BooksList from "./components/BooksList"
 const HomeScreen = ({ navigation }) => {
   return (
     <View>
-      <BooksList navigation={navigation} />
+      <BooksList />
     </View>
   )
 }
