@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from "react-native"
 import React from "react"
-import BooksList from "./components/BooksList"
 
-const HomeScreen = ({ navigation }) => {
+const BookDetailScreen = () => {
   return (
     <View>
-      <BooksList navigation={navigation} />
+      <Text>BookDetailScreen</Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default BookDetailScreen
 
 const styles = StyleSheet.create({})
